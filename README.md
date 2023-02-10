@@ -2,6 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tech Stack
+
+For this project, we used HTML, CSS, Javascript and React.
+
+## Libraries 
+
+For this project, we are using Ant Design React library primarily, as it provides all types of components with advanced features.
+
+## Features
+
+In this Project, We are fetching the data from Movie API, for front end we have provided the search bar and released year tab with 
+arrow up and arrow down key. User can type the movie name in search bar and based on that movie posters with movie name and released year
+will be displayed. User can sort the movies based on released year in ascending or descending order. If user clicks on any movie poster, the 
+information related to that movie will be diplayed in the form of card. Card will display the image of poster, movie name, released year and 
+its description. 
+
+### Netlify link
+
+This app is launched over netlify. Here is the link : https://roaring-scone-6cc47c.netlify.app/
+To run this application on local machine, instructions are provided below. 
+
 ## Available Scripts
 
 In the project directory, you can run:
