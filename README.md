@@ -20,7 +20,7 @@ its description.
 
 ### Netlify link
 
-This app is launched over netlify. Here is the link : https://roaring-scone-6cc47c.netlify.app/
+This app is launched over netlify. Here is the link : https://main--vocal-daifuku-40040d.netlify.app/
 To run this application on local machine, instructions are provided below. 
 
 ## Available Scripts
