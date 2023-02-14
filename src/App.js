@@ -18,7 +18,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios.get(
-        `http://www.omdbapi.com/?s=${searchTerm}&apikey=89fbb5e2`
+        `https://www.omdbapi.com/?s=${searchTerm}&apikey=89fbb5e2`
       );
       if (result.data.Search) {
         setMovies(result.data.Search);
@@ -34,7 +34,7 @@ const App = () => {
 
   const handleMovieSelection = (imdbID) => {
     axios
-      .get(`http://www.omdbapi.com/?i=${imdbID}&apikey=89fbb5e2`)
+      .get(`https://www.omdbapi.com/?i=${imdbID}&apikey=89fbb5e2`)
       .then((result) => {
         setSelectedMovie(result.data);
         setModalVisible(true);
